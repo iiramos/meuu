@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+    <style>
+        body {
+            background-color: #696969;
+            color: white;
+        }
+
+        .serie-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+
+        figure {
+            display: inline-block;
+            margin: 10px;
+            text-align: center;
+        }
+
+        figcaption {
+            margin-top: 5px;
+            font-weight: bold;
+        }
+
+        header {
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background-color: #808080;
+            color: white;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .card-img-top {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin: 10px auto 0;
+            display: block;
+            border: 3px solid white;
+        }
+
+        .btn-primary {
+            background-color: #333333;
+            border-color: #333333;
+        }
+
+        .btn-primary:hover {
+            background-color: #555555;
+            border-color: #555555;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="https://i.pinimg.com/originals/02/ee/64/02ee646212d0357080625bcd0d07a569.jpg" alt="avatar da Isabelle" class="rounded-circle" width="150" height="150">
+        <p class="lead">Eu sou Isabelle</p>
+        <h1>Eu sou estudante</h1>
+        <p>Sou aluna do ensino médio. Estou no segundo ano do ensino médio, numa escola em período integral.
+            Veja meus gostos em séries que já assisti!</p>
+        <p>Minhas séries preferidas:</p>
+
+        <div>
+            <figure>
+                <img src="https://a-static.mlcdn.com.br/1500x1500/capa-para-painel-redondo-greys-anatomy-tecido-sublimado-veste-facil-150mx150m-festa-aniversario-orangepaineis/orangepaineis1/g017pr01-150/44f73f3ec4a34d691fd3b34739488eee.jpeg" alt="Grey's Anatomy" class="serie-img">
+                <figcaption>Grey's Anatomy</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://down-br.img.susercontent.com/file/br-11134201-23020-h3dgmv607rnva7" alt="Anne With An E" class="serie-img">
+                <figcaption>Anne With An E</figcaption>
+            </figure>
+        </div>
+
+        <div class="card mx-auto mt-4" style="width: 18rem;">
+            <img src="https://img-estoquenow.s3.amazonaws.com/items/2137/capa-painel-redondo-15-stranger-things_e8b2ce9ce40c5695424db87c4ec22c50.jpg" class="card-img-top" alt="Stranger Things">
+            <div class="card-body">
+                <h5 class="card-title">Stranger Things</h5>
+                <p class="card-text">Série de suspense com mistério e criaturas do mundo invertido.</p>
+                <a href="https://www.netflix.com/title/80057281" class="btn btn-primary" target="_blank">Assistir</a>
+            </div>
+        </div>
+    </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
